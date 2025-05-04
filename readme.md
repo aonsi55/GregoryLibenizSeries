@@ -85,9 +85,25 @@ NumPy Vectorization: Dramatically faster by leveraging C-compiled operations and
 Convergence and Limitations
 The Gregory-Leibniz series converges extremely slowly. Even with millions of terms, it provides only a few accurate decimal places of π:
 
+
 10^6 terms: ~5 correct decimal places
 10^7 terms: ~6 correct decimal places
 10^8 terms: ~7 correct decimal places
 10^9 terms: ~12 correct decimal places
 
 The NumPy implementation faces memory constraints with very large n values (e.g., 10^10) as it needs to allocate large arrays. it requires 75 Gb of ram for 10^10 itterations.
+
+## How to compile the code
+- Step 1: Create a Python file
+Create a new file named gregory_leibniz.py with the content uploaded in this git.
+- Step 2: Using the module in other scripts
+Now you can import and use this function in any other Python script, for example you can create a py file named exampleusage.py and copy its content from the one uploaded in this git.
+-Step 3: Running the code
+You can run the module directly:
+```
+python gregory_leibniz.py
+```
+Or import it in another script as shown above and run that script:
+```
+python example_usage.py
+```
