@@ -98,7 +98,7 @@ The NumPy implementation faces memory constraints with very large n values (e.g.
 Create a new file named gregory_leibniz.py with the content uploaded in this git.
 - Step 2: Using the module in other scripts
 Now you can import and use this function in any other Python script, for example you can create a py file named exampleusage.py and copy its content from the one uploaded in this git.
--Step 3: Running the code
+- Step 3: Running the code
 You can run the module directly:
 ```
 python gregory_leibniz.py
